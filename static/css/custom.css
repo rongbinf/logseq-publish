@@ -1,11 +1,17 @@
 @import url("https://cdn.jsdelivr.net/gh/qbosen/logseq-dev-theme@main/src/external-icons.css");
 
-@import url('https://cdn.jsdelivr.net/gh/gavinmn/logseq-luma/custom.css');
+@import url('https://playerofgames.github.io/logseq-mia-theme/mia_sans_compact.css');
 
+/*
 :root {
-  --fontFamily: "Helvetica Neue", Helvetica, Arial, "Arial Unicode MS", sans-serif, "Noto Color Emoji";
+  --fontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif, "Noto Color Emoji";
 }
 html, body {
   font-family: var(--fontFamily);
   font-size: calc(100vw/68)
+}
+*/
+
+mark {
+  background-color: #4df9ffc3;
 }
