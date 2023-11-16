@@ -10,4 +10,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: inject script
-        run: sed -i 's@</body>@<script src="https://hypothes.is/embed.js" async></script></body>@' www/index.html
+        run: sed -i 's@</body>@<script src="https://hypothes.is/embed.js" async></script></body>@' index.html
