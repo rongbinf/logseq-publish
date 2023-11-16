@@ -2,6 +2,10 @@
 
 @import url('https://playerofgames.github.io/logseq-mia-theme/mia_sans_compact.css');
 
+.r.flex.drag-region {
+  padding-right: 40px !important;
+}
+
 /*
 :root {
   --fontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif, "Noto Color Emoji";
@@ -20,10 +24,6 @@ html, body {
   padding-right: 0.9em;
   padding-left: 0.4em;
 } */
-
-.cp__header > .r {
-  padding-right: 50px !important;
-}
 
 /* div.sidebar-container.sidebar-collapsed > div:nth-child(1) > div {
   padding-top: 5em; !important
