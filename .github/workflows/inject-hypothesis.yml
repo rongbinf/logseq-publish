@@ -16,4 +16,4 @@ jobs:
           repository-name: rongbinf/logseq-publish
           branch: main
           folder: .
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
