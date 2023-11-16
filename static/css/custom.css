@@ -12,14 +12,10 @@ html, body {
 }
 */
 
-mark {
-  background-color: #fff07191;
-}
-
-/* #head > div.r.flex.drag-region > div:nth-child(4) {
+#head > div.r.flex.drag-region > div:nth-child(4) {
   padding-right: 0.9em;
-} */
-
-div.sidebar-container.sidebar-collapsed > div:nth-child(1) > div {
-  padding-top: 5em;
 }
+
+/* div.sidebar-container.sidebar-collapsed > div:nth-child(1) > div {
+  padding-top: 5em; !important
+} */
