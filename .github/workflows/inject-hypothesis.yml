@@ -16,7 +16,7 @@ jobs:
       
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@v4
-          with:
-            repository-name: rongbinf/logseq-publish
-            branch: main
-            folder: .
+        with:
+          repository-name: rongbinf/logseq-publish
+          branch: main
+          folder: .
