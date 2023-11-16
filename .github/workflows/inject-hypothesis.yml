@@ -8,12 +8,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: checkout
+        uses: actions/checkout@v3
+      
       - name: inject script
         run: sed -i 's@</body>@<script src="https://hypothes.is/embed.js" async></script></body>@' index.html
-      - uses: JamesIves/github-pages-deploy-action@v4
+      
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           repository-name: rongbinf/logseq-publish
           branch: main
           folder: .
-          token: ${{ secrets.TOKEN }}
+        # if no token, go to settings and provide read and write permissions
