@@ -20,3 +20,4 @@ jobs:
           repository-name: rongbinf/logseq-publish
           branch: main
           folder: .
+        # if no token, go to settings and provide read and write permissions
