@@ -6,6 +6,14 @@
   padding-right: 40px !important;
 }
 
+div.r.flex.drag-region {
+  padding-right: 40px;
+}
+
+#head > div.r.flex.drag-region {
+  padding-right: 40px;
+}
+
 /*
 :root {
   --fontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif, "Noto Color Emoji";
