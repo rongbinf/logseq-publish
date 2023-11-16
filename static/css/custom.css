@@ -16,9 +16,13 @@ html, body {
   padding-right: 0.9em;
 } */
 
-button.button.icon.toggle-right-sidebar {
+/* button.button.icon.toggle-right-sidebar {
   padding-right: 0.9em;
   padding-left: 0.4em;
+} */
+
+.cp__header > .r {
+  padding-right: 50px !important;
 }
 
 /* div.sidebar-container.sidebar-collapsed > div:nth-child(1) > div {
