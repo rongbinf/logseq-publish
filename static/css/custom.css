@@ -19,3 +19,7 @@ mark {
 #head > div.r.flex.drag-region > div:nth-child(4) {
   padding-right: 0.9em;
 }
+
+/html/body/div/div/main/div[1]/div[1]/div[1]/div[2]/div[3] {
+  padding-right: 0.9em;
+}
