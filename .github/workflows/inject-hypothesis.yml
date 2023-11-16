@@ -11,11 +11,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: inject script
         run: sed -i 's@</body>@<script src="https://hypothes.is/embed.js" async></script></body>@' index.html
-       - name: deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+      - uses: JamesIves/github-pages-deploy-action@v4
         with:
           repository-name: rongbinf/logseq-publish
           branch: main
           clean: true
           single-commit: true
-          token: ${{ secrets.TOKEN }}
