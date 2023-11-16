@@ -16,10 +16,10 @@ mark {
   background-color: #fff07191;
 }
 
-#head > div.r.flex.drag-region > div:nth-child(4) {
+/* #head > div.r.flex.drag-region > div:nth-child(4) {
   padding-right: 0.9em;
-}
+} */
 
-/html/body/div/div/main/div[1]/div[1]/div[1]/div[2]/div[3] {
-  padding-right: 0.9em;
+div.sidebar-container.sidebar-collapsed > div:nth-child(1) > div {
+  padding-top: 5em;
 }
