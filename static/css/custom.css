@@ -15,3 +15,7 @@ html, body {
 mark {
   background-color: #fff07191;
 }
+
+#head > div.r.flex.drag-region > div:nth-child(4) {
+  padding-right: 0.9em;
+}
