@@ -15,5 +15,6 @@ jobs:
         with:
           repository-name: rongbinf/logseq-publish
           branch: main
+          folder: .
           clean: true
           single-commit: true
