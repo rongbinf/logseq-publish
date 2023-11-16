@@ -12,8 +12,13 @@ html, body {
 }
 */
 
-#head > div.r.flex.drag-region > div:nth-child(4) {
+/* #head > div.r.flex.drag-region > div:nth-child(4) {
   padding-right: 0.9em;
+} */
+
+button.button.icon.toggle-right-sidebar {
+  padding-right: 0.9em;
+  padding-left: 0.4em;
 }
 
 /* div.sidebar-container.sidebar-collapsed > div:nth-child(1) > div {
