@@ -23,6 +23,10 @@ mark {
   background: linear-gradient(to top, #a7c6ffc7 35%, transparent 75%) 0 -3px;
 }
 
+:is(.dark, .dark-theme) mark {
+  background-color: none !important;
+}
+
 /*
 :root {
   --fontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif, "Noto Color Emoji";
